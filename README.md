@@ -18,6 +18,7 @@ Here are some ideas to get you started:
 
 I'm a sercurity researcher and coder
 
+my blog [https://github.com/3072L/3072l.github.io]
 
 ###  vulnerabilities I found
 
