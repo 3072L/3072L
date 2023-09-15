@@ -47,7 +47,7 @@ a lot of overflow and RCE
 wwxam2pic null pointer derefer found by jackalope + tinyInst in wechat
 
 
-hundreds of dll injections vulnerabilities found by dllfuzzer in various 
+hundreds of dll injections vulnerabilities found by dllfuzzer
 
 #### linux platform
 
