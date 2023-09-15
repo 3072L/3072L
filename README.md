@@ -26,19 +26,19 @@ I'm a sercurity researcher and coder
 
 dlink:
 
-
+a lot of overflow and RCE
 
 tenda:
 
-
+a lot of overflow and RCE
 
 vigorfly:
 
-
+a lot of overflow and RCE
 
 linksys:
 
-
+a lot of overflow and RCE
 
 
 #### windows platform
@@ -47,7 +47,7 @@ linksys:
 wwxam2pic null pointer derefer found by jackalope + tinyInst in wechat
 
 
-hundres of dll injections vulnerabilities found by dllfuzzer in various 
+hundreds of dll injections vulnerabilities found by dllfuzzer in various 
 
 #### linux platform
 
