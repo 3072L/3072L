@@ -20,29 +20,42 @@ I'm a sercurity researcher and coder
 
 [my blog](https://github.com/3072L/3072l.github.io)
 
+
+CNVD = Chinese National Vulnerability Database
+
+I don't like CVE ID, because nowadays you can apply for a CVE ID even without providing any POC, and even the provided code snippet doesn't contain any vulnerabilities
+
 ###  vulnerabilities I found
 
 
 #### IOT platform
 
-dlink:
+| id             | company |   model    | vul type |  method   |
+| -------------- | ------- | ---------- | ---- | ------------------ |
+| X              | tenda    | Ac6        | RCE  | reverse  |
+| x              | vigorfly | 200      | RCE    | reverse |
+| x              | vigorfly | 2960     | RCE    | reverse |
+| CNVD-2023-52338 | dlink    | 615      | overflow  | reverse + rcall |
+| CNVD-2023-52238	 | dlink    | 615      | overflow  | reverse + rcall |
+| CNVD-2023-56319 | dlink    | 615      | overflow  | reverse + rcall |
+| CNVD-2023-53593 | dlink    | 615      | overflow  | reverse + rcall |
+| CNVD-2023-53542 | dlink    | 615      | overflow  | reverse + rcall |
+| CNVD-2023-53541 | dlink    | 615      | overflow  | reverse + rcall |
+.... hundreds of overflow
 
-a lot of overflow and RCE
-
-tenda:
-
-a lot of overflow and RCE
-
-vigorfly:
-
-a lot of overflow and RCE
-
-linksys:
-
-a lot of overflow and RCE
 
 
 #### windows platform
+
+| id             | company |   model    | vul type |  method   |
+| -------------- | ------- | ---------- | ---- | ------------------ |
+| CNVD-2021-21860 | Valve  | steam        | Dll Hijacking | dllfuzzer |
+| CNVD-2021-18307 | tencent | yehu        | Dll Hijacking | dllfuzzer |
+| x               | sangfor| edr          | Dll Hijacking | dllfuzzer |
+| x               |  tencent | wechat     |  null pointer derefer | jackalope + tinyInst |
+| x               |  microsoft | cacl32.exe |  null pointer derefer |   rust +  Mesos     |
+.... hundreds of Dll Hijacking
+
 
 
 wwxam2pic null pointer derefer found by jackalope + tinyInst in wechat
@@ -52,8 +65,20 @@ hundreds of dll injections vulnerabilities found by dllfuzzer
 
 #### linux platform
 
+| id             | company |   model      | vul type            |  method   |
+| -------------- | ------- | ----------   |  ------------------ |---------- |
+| X              | GIMP    | libbabl      |  SEGV               | AFL++     |
+
+
 
 SEGV found by AFL++ in libbabl
+
+
+#### web
+
+| id             | company |   model      | vul type            |  method   |
+| -------------- | ------- | ----------   |  ------------------ |---------- |
+| CVE-2020-16610 |Hoosk CMS|     x        |  CSRF               | code audit |
 
 
 ### tools I developed
@@ -61,7 +86,7 @@ SEGV found by AFL++ in libbabl
 
 #### dllfuzzer
 
-A very simple tool that can find hundreds of dll injection vulnerabilities, which is developed in rust
+A very simple tool that can find hundreds of dll Hijacking vulnerabilities, which is developed in rust
 
 to be public ....
 
