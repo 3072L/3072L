@@ -52,7 +52,7 @@ I don't like CVE ID, because nowadays you can apply for a CVE ID even without pr
 | CNVD-2021-18307 | tencent | yehu        | Dll Hijacking | dllfuzzer |
 | x               | sangfor| edr          | Dll Hijacking | dllfuzzer |
 | x               |  tencent | wechat     |  null pointer derefer | jackalope + tinyInst |
-| x               |  microsoft | cacl32.exe |  null pointer derefer |   rust +  Mesos     |
+| x               |  microsoft | wincacl |  null pointer derefer |   rust +  Mesos     |
 
 .... hundreds of Dll Hijacking found by dllfuzzer 
 
