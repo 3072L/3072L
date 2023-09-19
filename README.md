@@ -21,7 +21,7 @@ I'm a sercurity researcher and coder
 [my blog](https://github.com/3072L/3072l.github.io)
 
 
-CNVD = Chinese National Vulnerability Database
+CNVD = Chinese National Vulnerability Database ID
 
 I don't like CVE ID, because nowadays you can apply for a CVE ID even without providing any POC, and even the provided code snippet doesn't contain any vulnerabilities
 
