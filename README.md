@@ -16,7 +16,8 @@ Here are some ideas to get you started:
 -->
 
 
-I'm a sercurity researcher and coder
+### I'm a sercurity researcher and coder 🔭
+
 
 [my blog](https://github.com/3072L/3072l.github.io)
 
@@ -46,7 +47,7 @@ I don't like CVE ID, because nowadays you can apply for a CVE ID even without pr
 
 
 
-#### windows platform
+#### Windows platform
 
 | id             | company |   model    | vul type |  method   |
 | -------------- | ------- | ---------- | ---- | ------------------ |
@@ -62,7 +63,7 @@ I don't like CVE ID, because nowadays you can apply for a CVE ID even without pr
 
 
 
-#### linux platform
+#### Linux platform
 
 | id             | company |   model      | vul type            |  method   |
 | -------------- | ------- | ----------   |  ------------------ |---------- |
@@ -73,14 +74,14 @@ I don't like CVE ID, because nowadays you can apply for a CVE ID even without pr
 SEGV found by AFL++ in libbabl
 
 
-#### web
+#### Web
 
 | id             | company |   model      | vul type            |  method   |
 | -------------- | ------- | ----------   |  ------------------ |---------- |
-| CVE-2020-16610 |Hoosk CMS|     x        |  CSRF               | code audit |
+| CVE-2020-16610 |Hoosk CMS|     x        |  CSRF               | code audit|
 
 
-### tools I developed
+### Tools I developed
 
 
 #### dllfuzzer
