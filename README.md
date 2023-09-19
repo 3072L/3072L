@@ -41,6 +41,7 @@ I don't like CVE ID, because nowadays you can apply for a CVE ID even without pr
 | CNVD-2023-53593 | dlink    | 615      | overflow  | reverse + rcall |
 | CNVD-2023-53542 | dlink    | 615      | overflow  | reverse + rcall |
 | CNVD-2023-53541 | dlink    | 615      | overflow  | reverse + rcall |
+
 .... hundreds of overflow
 
 
@@ -54,14 +55,12 @@ I don't like CVE ID, because nowadays you can apply for a CVE ID even without pr
 | x               | sangfor| edr          | Dll Hijacking | dllfuzzer |
 | x               |  tencent | wechat     |  null pointer derefer | jackalope + tinyInst |
 | x               |  microsoft | cacl32.exe |  null pointer derefer |   rust +  Mesos     |
-.... hundreds of Dll Hijacking
+
+.... hundreds of Dll Hijacking found by dllfuzzer 
 
 
 
-wwxam2pic null pointer derefer found by jackalope + tinyInst in wechat
 
-
-hundreds of dll injections vulnerabilities found by dllfuzzer
 
 #### linux platform
 
